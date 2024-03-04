@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for carbon-player-line-chatbot-lingering-cloud-8535 on 2024-03-04T17:54:24+08:00
+# fly.toml app configuration file generated for carbon-player on 2024-03-04T20:50:44+08:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'carbon-player-line-chatbot-lingering-cloud-8535'
+app = 'carbon-player'
 primary_region = 'hkg'
 
 [build]
