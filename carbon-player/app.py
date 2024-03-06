@@ -11,7 +11,6 @@ line_bot_api = LineBotApi('uyT/wIyH6kkz35o7X7G8Edzgisq8l4Vn1wTvz+QMXcuKAnaXUhYuc
 handler = WebhookHandler('fed72a71f8981ef1dec1e5867df85909')
 
 app = Flask(__name__)
-
 # 監聽所有來自 /callback 的 Post Request
 @app.route("/callback", methods=['POST'])
 def callback():

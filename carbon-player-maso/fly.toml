@@ -1,16 +1,10 @@
-# fly.toml app configuration file generated for carbon-player-spring-smoke-1521 on 2024-03-05T21:48:06+08:00
+# fly.toml app configuration file generated for carbon-player-maso on 2024-03-06T00:28:21+08:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'carbon-player-spring-smoke-1521'
-primary_region = 'hkg'
-
-[build]
-  builder = 'paketobuildpacks/builder:base'
-
-[env]
-  PORT = '8080'
+app = 'carbon-player-maso'
+primary_region = 'nrt'
 
 [http_service]
   internal_port = 8080
